@@ -283,8 +283,20 @@ footer {
   #contact .container {
     height: 50vh;
   }
+ 
   
-  
+}
+@media(max-width:660px){
+    .logo {
+        font-size: 4rem;
+        font-weight: 700;
+      }
+      nav li {
+        font-size: 2.8rem;
+        border-bottom: 0.4rem transparent solid;
+        transition: 0.3s ease-in-out;
+        padding: 5px;
+      }
 }
 #pra{
     border-radius: 50%;
