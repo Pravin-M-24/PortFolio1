@@ -188,6 +188,7 @@ nav li:hover {
 }
 .card_content h3 {
   text-align: center;
+  
 }
 
 /* Contact Section */
@@ -283,7 +284,18 @@ footer {
   #contact .container {
     height: 50vh;
   }
- 
+  .card_content {
+    padding: 2rem;
+    position: relative;
+    top: -6.5rem;
+    margin-bottom: -6.5rem;
+    transition: 0.5s ease-in-out;
+    transform: translateY(100px);
+  }
+  .card_content h3 {
+    text-align: center;
+    font-size: 20px;
+  }
   
 }
 @media(max-width:660px){
