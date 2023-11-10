@@ -82,6 +82,7 @@ p{
 
     background-color: rgba(0, 128, 0, 0.71);
     max-width: 50%;
+    
 }
 .about{
     background-color: rgba(165, 42, 42, 0.815);
@@ -89,8 +90,10 @@ p{
     
 }
 .bottomsection{
+    position: relative;
+    left: 15px;
     display: flex;
-
+    flex: 1 fr;
     
 }
 .bottomsection h2{
@@ -163,7 +166,8 @@ height: 100vh;
     text-align: justify;
     margin-top: 20px;
     margin-bottom: 20px;
-
+    position: relative;
+    left:15px;
 }
 .topbottom{
     height: 15vh;
