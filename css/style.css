@@ -103,7 +103,7 @@ nav li:hover {
   font-size: 5rem;
 }
 
-#hero h2 {
+  #hero h2 {
   font-size: 4rem;
   font-weight: bold;
 
@@ -111,9 +111,10 @@ nav li:hover {
   border-right: 0.15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */ /* Adjust as needed */
-  animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+  animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite; 
 }
-@keyframes typing {
+
+  @keyframes typing {
   from {
     width: 0;
   }
@@ -129,7 +130,7 @@ nav li:hover {
   50% {
     border-color: orange;
   }
-}
+}  
 
 /* Project Section */
 
@@ -160,13 +161,13 @@ nav li:hover {
   display: flex;
   flex-direction: column;
   border-radius: 0.5rem;
-  overflow: hidden;
+   overflow: hidden;
   transition: 0.2s ease-in-out;
 }
-.card:hover {
+ .card:hover {
   transform: scale(1.05);
   transition: 1s ease-in-out;
-}
+} 
 .card:hover img {
   transform: scale(1.05);
   transition: 0.3s ease-in-out;
@@ -180,8 +181,8 @@ nav li:hover {
 
 .card_content {
   padding: 2rem;
-  position: relative;
-  top: -6.5rem;
+   position: relative; 
+   top: -6.5rem;
   margin-bottom: -6.5rem;
   transition: 0.5s ease-in-out;
   transform: translateY(100px);
